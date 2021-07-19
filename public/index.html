@@ -27,7 +27,33 @@
     <link 
     rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;900&display=swap" rel="stylesheet"> 
-    <title>React App</title>
+    <title>Pizza App</title>
+
+
+
+
+
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "23e54fd2-142d-44d2-9c51-7916174d1558", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "5b4ddc0f-4865-4033-a84b-fd616683ab54", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
+
+
+
+
+
+
+
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
